@@ -1,0 +1,6 @@
+<h1>Quartos recém postados</h1>
+<ul>
+  <% @quartos.each do |quarto| %>
+      <li><%= link_to quarto.description, quarto %> </li>
+  <% end %>
+</ul>
